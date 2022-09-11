@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.bottom span {
+  color: green;
+}
+
+/* 
+Solution:
+
+#color .odd .bottom span {
+    color: green;
+}
+*/
